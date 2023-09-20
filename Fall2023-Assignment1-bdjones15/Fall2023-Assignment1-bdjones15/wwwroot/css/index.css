@@ -1,0 +1,13 @@
+﻿body {    
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#CoverArt {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
