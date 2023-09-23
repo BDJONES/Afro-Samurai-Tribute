@@ -1,13 +1,93 @@
-﻿body {    
-    background-color: darkred;
+﻿body {
+/*    background-color: rgba(255, 0, 0, 0.5);*/
+    background: url(https://images3.alphacoders.com/203/203247.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-#CoverArt {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
+.overlay-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(155, 0, 0, 0.5);
 }
+
+#CoverArt {
+    display: flex;
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+/*    margin-left: 12%;*/
+    align-items: center;
+    padding: 4px;
+}
+
+.rating-style {
+    color:aqua;
+/*    flex-grow: 1;*/
+    font-size:32px;
+}
+
+.content-box-style {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.movie-info-style {
+    display: flex;
+    flex-direction: column;
+    height:225px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.summary-actor-info {
+    display: flex;
+    flex-direction: column;
+    height: 325px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 2px;
+    margin: 4px;
+}
+
+#Summary {
+    font-size: 24px;
+    width: 500px;
+}
+
+#Trailer {
+    display: flex;
+    flex-grow: 4;
+    padding: 4px;
+}
+
+.separation-line-style {
+    display: flex;
+    height: 325px;
+    width: 2px;
+    background: white;
+    opacity: 0.2;
+    margin: 4px;
+}
+/*.content-style {
+    display: flex;
+}*/
