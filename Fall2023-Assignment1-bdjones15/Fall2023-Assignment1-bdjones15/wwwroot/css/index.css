@@ -105,6 +105,11 @@
 .movie-info-style > ul {
     font-size: 20px;
 }
+
+.imdb-rating-style {
+    font-size: 38px;
+    color: darkred;
+}
 /*.content-style {
     display: flex;
 }*/
